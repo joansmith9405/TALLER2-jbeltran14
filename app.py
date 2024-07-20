@@ -42,10 +42,8 @@ def sonido_huron():
 def sonido_gato():
      return  'El Gato hace' + '  ' + Gato.hacer_sonido()
 
-
-
 @app.route("/sonido_boa")
 def sonido_boa():
-     return 'La Boa hace' + '  '  + Boa_Constrictor.hacer_sonido()
+     return 'Las Boa hace' + '  '  + Boa_Constrictor.hacer_sonido()
 
 
